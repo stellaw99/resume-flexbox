@@ -1,4 +1,40 @@
 body{
-    font-family: montserrat, poppins, roboto;
+    font-family: poppins, roboto, sans-serif;
     font-size: 16px;
 }
+
+.flex-container{
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 131, 17);
+    justify-content: space-between;
+    align-items: end;
+    margin:10px;
+}
+
+.item{
+    flex:1;
+    width: 100px;
+    height: 100px;
+    
+    background-color: rgb(219, 219, 219);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-of-type(1){
+   
+    }
+    
+.item:nth-of-type(2){
+   
+    }
+    
+.item:nth-of-type(3){
+    
+    }
